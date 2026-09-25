@@ -1,0 +1,23 @@
+# Do not publish local credentials, database files, or application workspaces.
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.log
+*.zip
+*.bak
+*.ibd
+*.db
+*.sqlite*
+*.cnf
+*.ini
+.dbeaver/
+.metadata/
+.idea/
+.vscode/
+__pycache__/
+.DS_Store
+Thumbs.db
+credentials-config.json
+data-sources.json
